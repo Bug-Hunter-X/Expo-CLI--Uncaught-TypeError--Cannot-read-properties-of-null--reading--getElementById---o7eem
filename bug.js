@@ -1,0 +1,1 @@
+This error typically occurs when using Expo's `document.getElementById` within a React Native component.  React Native doesn't directly use the DOM like traditional web applications, so this method won't work as expected.  It might lead to a `TypeError: Cannot read properties of null (reading 'getElementById')` if the element isn't found or a similar error.
